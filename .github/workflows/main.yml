@@ -39,6 +39,6 @@ jobs:
           push: true
           tags: |
             cairesjanderson/rotten-potatoes:latest
-            cairesjanderson/rotten-potatoes: ${{ github.run_number }}
+            cairesjanderson/rotten-potatoes:${{ github.run_number }}
           
             
